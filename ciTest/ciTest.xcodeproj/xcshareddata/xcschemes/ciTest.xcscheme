@@ -92,7 +92,7 @@
             ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
             <ActionContent
                title = "Run Script"
-               scriptText = "&#10;">
+               scriptText = "DEVELOPER_DIR=&quot;/Applications/Xcode.app/Contents/Developer/&quot;&#10;export DEVELOPER_DIR &#10;">
             </ActionContent>
          </ExecutionAction>
       </PreActions>
