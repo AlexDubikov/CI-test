@@ -92,7 +92,7 @@
             ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
             <ActionContent
                title = "Run Script"
-               scriptText = "if [ -d &quot;/tmp/am&quot; ]; then&#10;    /bin/echo &quot;cleaning tmp dir&quot;&#10;    /bin/rm -rf &quot;/tmp/am/*&quot;&#10;else&#10;    /bin/echo &quot;creating tmp dir&quot;&#10;    /bin/mkdir /tmp/am&#10;fi&#10;&#10;&#10;">
+               scriptText = "if [ -d &quot;/tmp/am&quot; ]; then&#10;    /bin/echo &quot;cleaning tmp dir&quot;&#10;    /bin/rm -rf &quot;/tmp/am&quot;&#10;    /bin/echo &quot;creating tmp dir&quot;&#10;    /bin/mkdir /tmp/am&#10;else&#10;    /bin/echo &quot;creating tmp dir&quot;&#10;    /bin/mkdir /tmp/am&#10;fi&#10;&#10;&#10;">
             </ActionContent>
          </ExecutionAction>
       </PreActions>
