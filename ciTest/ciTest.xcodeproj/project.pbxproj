@@ -275,6 +275,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = daf.citest.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "bb43911e-a12a-4160-a8a5-ee8af0314761";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -288,6 +289,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = daf.citest.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "bb43911e-a12a-4160-a8a5-ee8af0314761";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

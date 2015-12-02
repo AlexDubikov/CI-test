@@ -41,9 +41,9 @@ platform :ios do
   lane :beta do
     # sigh
     # gym # Build your app - more options available
-    pilot(
-      ipa : "/tmp/am/ciTest.ipa"
-      )
+    pilot({
+      ipa: "/tmp/am/ciTest.ipa"
+      })
 
     # sh "your_script.sh"
     # You can also use other beta testing services here
