@@ -101,7 +101,7 @@
             ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
             <ActionContent
                title = "Run Script"
-               scriptText = "echo &quot;Creating .ipa for ${PRODUCT_NAME}&quot;&#10;&#10;/usr/bin/xcrun xcodebuild -exportArchive -archivePath &quot;${ARCHIVE_PATH}&quot; -exportPath /tmp/am/ -exportOptionsPlist /Library/Developer/XcodeServer/exportOptions.plist -IDEPostProgressNotifications=YES -DVTAllowServerCertificates=YES -DVTSigningCertificateSourceLogLevel=3 -DVTSigningCertificateManagerLogLevel=3 -DTDKProvisioningProfileExtraSearchPaths=/Library/Developer/XcodeServer/ProvisioningProfiles&#10;&#10;cd &quot;${PROJECT_DIR}&quot;&#10;&#10;fastlane beta&#10;&#10;">
+               scriptText = "">
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
